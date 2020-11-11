@@ -5,6 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
+  20.times do |card|
 end
 
 def display_card_total
