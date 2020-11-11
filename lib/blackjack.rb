@@ -42,7 +42,11 @@ def hit?(user_hand)
   prompt_user
   get_user_input = user_input
   
-  if user_input = 's'
+  if user_input == 's'
+    user_hand
+    
+  if user_input == 'h'
+    deal_card
   end
   
 end
