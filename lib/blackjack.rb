@@ -73,7 +73,7 @@ def runner
   user_hand = initial_round
   card_total = user_hand
 
-  while card_total >= 21
+  until card_total >= 21
     card_total = hit?(card_total)
     display_card_total(card_total)
   end
