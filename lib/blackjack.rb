@@ -40,7 +40,7 @@ end
 def hit?(user_hand)
   # code hit? here
   prompt_user
-  get_user_input = user_input
+  user_input = get_user_input
   
   if user_input != 'h' && user_input != 's'
     invalid_command
