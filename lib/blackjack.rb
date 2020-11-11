@@ -7,10 +7,10 @@ def deal_card
   # code #deal_card here
   card = [1..11]
   
-  20.times{n} do |card|
-    if card < 0 && card > 12
-    end
-  end
+  20.times{n} #do |card|
+    #if card < 0 && card > 12
+    #end
+  #end
 end
 
 def display_card_total
