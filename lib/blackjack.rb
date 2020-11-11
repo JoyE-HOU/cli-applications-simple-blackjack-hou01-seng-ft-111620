@@ -43,6 +43,7 @@ def hit?(user_hand)
   get_user_input = user_input
   
   if user_input = 's'
+  end
   
 end
 
