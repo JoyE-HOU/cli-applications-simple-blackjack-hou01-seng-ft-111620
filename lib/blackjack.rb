@@ -5,7 +5,9 @@ end
 
 def deal_card
   # code #deal_card here
-  20.times {1..11} do |card|
+  card = [1..11]
+  
+  20.times do |card|
     if card < 0 && card > 12
     end
   end
