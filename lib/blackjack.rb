@@ -69,6 +69,6 @@ end
 
 def runner
   # code runner here
-  welcome
+  puts welcome
 end
     
