@@ -36,6 +36,7 @@ end
   
   print display_card_total(sum)
 end
+end
 
 def hit?
   # code hit? here
