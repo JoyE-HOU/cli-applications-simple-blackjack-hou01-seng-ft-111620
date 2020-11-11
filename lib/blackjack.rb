@@ -32,7 +32,6 @@ def initial_round
   # code #initial_round here
   
   sum = deal_card + deal_card
-end
   
   print display_card_total(sum)
 end
