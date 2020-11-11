@@ -54,7 +54,7 @@ def hit?(user_hand)
   elsif user_input == 's'
     user_hand
   end
-  
+  user_hand
 end
 
 def invalid_command
